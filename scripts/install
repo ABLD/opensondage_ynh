@@ -88,6 +88,7 @@ ynh_setup_source "$final_path"
 
 # Create a dedicated nginx config
 ynh_add_nginx_config
+cat /etc/nginx/conf.d/$domain.d/$app.conf
 
 #=================================================
 # CREATE DEDICATED USER
